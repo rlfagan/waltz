@@ -1,0 +1,1341 @@
+repo_name: rlfagan/waltz
+report_id: a2b5140ca0e1c8e83086678623545764
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-20T23:04:31+00:00'
+requested_by: davidwatkins73
+provider: github
+branch: master
+detected_tools_count: 93
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  version: '1.8'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/pom.xml
+  detection_source: Repo Metadata
+  last_updated_by: David Watkins
+  last_updated_on: 2019-12-30 22:02:39.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/rlfagan/waltz
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/docs/development/database/attestation-snippets.sql
+  detection_source: docs/development/database/attestation-snippets.sql
+  last_updated_by: david.watkins@db.com
+  last_updated_on: 2020-01-28 08:45:03.000000000 Z
+- name: Apache FreeMarker
+  description: A free Java-based template engine
+  website_url: http://freemarker.incubator.apache.org/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/4456/ymCgaIO0_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-service/pom.xml
+  detection_source: waltz-service/pom.xml
+  last_updated_by: David Watkins
+  last_updated_on: 2019-12-22 18:27:39.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-06-05 10:43:25.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2016-01-18 22:06:27.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-common/pom.xml
+  detection_source: waltz-common/pom.xml
+  last_updated_by: Rohit Vats
+  last_updated_on: 2016-09-26 19:14:36.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-07-19 14:55:06.000000000 Z
+- name: Liquibase
+  description: Easily track, version &amp; deploy database changes
+  website_url: https://www.liquibase.com
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/1398/y1As8_s5_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-integration-test/pom.xml
+  detection_source: waltz-integration-test/pom.xml
+  last_updated_by: David Watkins
+  last_updated_on: 2020-04-22 07:41:20.000000000 Z
+- name: jOOQ
+  description: A light database-mapping software library
+  website_url: http://www.jooq.org
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/2279/jooq-logo-white-750x750-padded.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-common/pom.xml
+  detection_source: waltz-common/pom.xml
+  last_updated_by: Dave Watkins
+  last_updated_on: 2016-01-18 22:06:27.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 6.26.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/.babelrc
+  last_updated_by: Dave Watkins
+  last_updated_on: 2016-01-18 22:06:27.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2016-01-18 22:06:27.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/.eslintrc
+  detection_source: waltz-ng/.eslintrc
+  last_updated_by: Dave Watkins
+  last_updated_on: 2016-01-18 22:06:27.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rlfagan/waltz
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-common/pom.xml
+  detection_source: waltz-common/pom.xml
+  last_updated_by: Dave Watkins
+  last_updated_on: 2016-01-18 22:06:27.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-common/pom.xml
+  detection_source: waltz-common/pom.xml
+  last_updated_by: Dave Watkins
+  last_updated_on: 2016-01-18 22:06:27.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-11-17 06:48:45.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-common/pom.xml
+  detection_source: waltz-common/pom.xml
+  last_updated_by: Dave Watkins
+  last_updated_on: 2016-01-18 22:06:27.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Kamran
+  last_updated_on: 2016-07-05 13:07:23.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.16.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: David Watkins
+  last_updated_on: 2020-01-02 21:57:56.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2016-01-18 22:06:27.000000000 Z
+- name: Dataform
+  description: A framework for managing SQL based data operations.
+  website_url: https://dataform.co/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11236/Group_22__3_.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-jobs/pom.xml
+  detection_source: waltz-jobs/pom.xml
+  last_updated_by: David Watkins
+  last_updated_on: 2019-12-22 18:27:39.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.11
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-12-02 10:30:38.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.19.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-03-26 08:20:50.000000000 Z
+- name: Satellizer
+  description: Token-based AngularJS Authentication
+  website_url: https://github.com/sahat/satellizer
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/1431/satellizer.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-07-16 19:36:20.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/rlfagan/waltz
+  detection_source: Repo Metadata
+- name: angular
+  description: HTML enhanced for web apps
+  package_url: https://www.npmjs.com/angular
+  version: 1.7.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16174/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: David Watkins
+  last_updated_on: 2019-12-03 09:47:43.000000000 Z
+  vulnerabilities:
+  - name: angular vulnerable to super-linear runtime due to backtracking
+    cve_id: CVE-2024-21490
+    cve_url: https://github.com/advisories/GHSA-4w4v-5hc9-xrr2
+    detected_date: Feb 14
+    severity: high
+    first_patched:
+  - name: angular vulnerable to regular expression denial of service via the $resource
+      service
+    cve_id: CVE-2023-26117
+    cve_url: https://github.com/advisories/GHSA-2qqx-w9hr-q5gx
+    detected_date: Apr 4
+    severity: moderate
+    first_patched:
+  - name: angular vulnerable to regular expression denial of service via the angular.copy()
+      utility
+    cve_id: CVE-2023-26116
+    cve_url: https://github.com/advisories/GHSA-2vrf-hf26-jrp5
+    detected_date: Apr 4
+    severity: moderate
+    first_patched:
+  - name: Angular (deprecated package) Cross-site Scripting
+    cve_id: CVE-2022-25869
+    cve_url: https://github.com/advisories/GHSA-prc3-vjfx-vhm9
+    detected_date: Jul 20
+    severity: moderate
+    first_patched:
+  - name: angular vulnerable to regular expression denial of service (ReDoS)
+    cve_id: CVE-2022-25844
+    cve_url: https://github.com/advisories/GHSA-m2h2-264f-f486
+    detected_date: May 5
+    severity: moderate
+    first_patched:
+  - name: XSS via JQLite DOM manipulation functions in AngularJS
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-5cp4-xmrw-59wf
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.8.0
+  - name: Cross site scripting in Angular
+    cve_id: CVE-2020-7676
+    cve_url: https://github.com/advisories/GHSA-mhp6-pxh8-r675
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.8.0
+  - name: angular vulnerable to regular expression denial of service via the <input
+      type="url"> element
+    cve_id: CVE-2023-26118
+    cve_url: https://github.com/advisories/GHSA-qwqh-hm9m-p5hr
+    detected_date: Apr 4
+    severity: moderate
+    first_patched:
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.19.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-03-26 08:20:50.000000000 Z
+  vulnerabilities:
+  - name: 'Path Traversal: ''dir/../../filename'' in moment.locale'
+    cve_id: CVE-2022-24785
+    cve_url: https://github.com/advisories/GHSA-8hfj-j24r-96c4
+    detected_date: Apr 9
+    severity: high
+    first_patched: 2.29.2
+  - name: Moment.js vulnerable to Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-31129
+    cve_url: https://github.com/advisories/GHSA-wc69-rhjr-hc9g
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.29.4
+- name: xlsx
+  description: SheetJS Spreadsheet data parser and writer
+  package_url: https://www.npmjs.com/xlsx
+  version: 0.11.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16781/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: kamransaleem
+  last_updated_on: 2017-12-15 17:19:50.000000000 Z
+  vulnerabilities:
+  - name: SheetJS Regular Expression Denial of Service (ReDoS)
+    cve_id: CVE-2024-22363
+    cve_url: https://github.com/advisories/GHSA-5pgg-2g8v-p4x9
+    detected_date: Apr 9
+    severity: high
+    first_patched: 0.20.2
+  - name: Prototype Pollution in sheetJS
+    cve_id: CVE-2023-30533
+    cve_url: https://github.com/advisories/GHSA-4r6h-8v6p-xvw6
+    detected_date: Apr 25
+    severity: high
+    first_patched: 0.19.3
+  - name: Denial of Service in SheetsJS Pro
+    cve_id: CVE-2021-32013
+    cve_url: https://github.com/advisories/GHSA-8vcr-vxm8-293m
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.17.0
+  - name: Denial of Service in SheetJS Pro
+    cve_id: CVE-2021-32012
+    cve_url: https://github.com/advisories/GHSA-3x9f-74h4-2fqr
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.17.0
+  - name: Denial of Service in SheetJS Pro
+    cve_id: CVE-2021-32014
+    cve_url: https://github.com/advisories/GHSA-g973-978j-2c3p
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.17.0
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 4.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-06-05 10:43:08.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+  - name: Denial of Service in node-sass
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-9v62-24cr-58cx
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: angular-animate
+  description: AngularJS module for animations
+  package_url: https://www.npmjs.com/angular-animate
+  version: 1.7.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17370/default_68a60246a766655932541acc39422873bd51360a.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: David Watkins
+  last_updated_on: 2019-12-03 09:47:43.000000000 Z
+- name: angular-sanitize
+  description: AngularJS module for sanitizing HTML
+  package_url: https://www.npmjs.com/angular-sanitize
+  version: 1.7.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17443/default_4036a97a759f3ed3ec649b3a5fa230fe4d064a6a.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: David Watkins
+  last_updated_on: 2019-12-03 09:47:43.000000000 Z
+- name: angular-ui-bootstrap
+  description: Native AngularJS
+  package_url: https://www.npmjs.com/angular-ui-bootstrap
+  version: 1.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18273/default_75898a30f0389712301325cbd5e5019e01269891.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: David Watkins
+  last_updated_on: 2019-12-03 09:47:43.000000000 Z
+- name: babel-cli
+  description: Babel command line
+  package_url: https://www.npmjs.com/babel-cli
+  version: 6.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15804/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-07-17 12:47:33.000000000 Z
+- name: babel-core
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/babel-core
+  version: 6.26.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-07-17 12:47:33.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 7.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-07-19 14:55:06.000000000 Z
+- name: babel-plugin-syntax-async-functions
+  description: Allow parsing of async functions
+  package_url: https://www.npmjs.com/babel-plugin-syntax-async-functions
+  version: 6.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16535/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: David Watkins
+  last_updated_on: 2020-01-02 21:57:56.000000000 Z
+- name: babel-polyfill
+  description: Provides polyfills necessary for a full ES2015+ environment
+  package_url: https://www.npmjs.com/babel-polyfill
+  version: 6.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15867/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-07-17 12:47:33.000000000 Z
+- name: babel-preset-env
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/babel-preset-env
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15814/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-07-17 12:47:33.000000000 Z
+- name: bootstrap-sass
+  description: Bootstrap-sass is a Sass-powered version of Bootstrap 3
+  package_url: https://www.npmjs.com/bootstrap-sass
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16915/default_e65289f03a07faa8d49ce16c483f18c4f8a98db9.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-06-05 10:43:25.000000000 Z
+- name: clean-webpack-plugin
+  description: A webpack plugin to remove/clean your build folder
+  package_url: https://www.npmjs.com/clean-webpack-plugin
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16068/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: David Watkins
+  last_updated_on: 2020-01-02 21:57:56.000000000 Z
+- name: d3-array
+  description: Array manipulation, ordering, searching, summarizing, etc
+  package_url: https://www.npmjs.com/d3-array
+  version: 1.2.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17322/default_2f1b682e838d69744876821bf705f0b2974318b1.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2017-04-24 11:44:55.000000000 Z
+- name: d3-format
+  description: Format numbers for human consumption
+  package_url: https://www.npmjs.com/d3-format
+  version: 1.2.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18327/default_b0d06180669cf53f2469ea77b53b5911d72482d5.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2017-04-24 11:44:55.000000000 Z
+- name: d3-interpolate
+  description: Interpolate numbers
+  package_url: https://www.npmjs.com/d3-interpolate
+  version: 1.1.4
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18261/default_e883f2ab27e3b57d1e2e1d1474b09e7351e11b54.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2017-04-24 11:44:55.000000000 Z
+- name: d3-scale
+  description: Encodings that map abstract data to visual representation
+  package_url: https://www.npmjs.com/d3-scale
+  version: 1.0.5
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16978/default_7a9e63a9526bf5da91e7a6f9f792b13e3543a875.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2017-04-24 11:44:55.000000000 Z
+- name: d3-selection
+  description: 'Data-driven DOM manipulation: select elements and join them to data'
+  package_url: https://www.npmjs.com/d3-selection
+  version: 1.0.5
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17187/default_fbe883dfc6d978f82179fa11bdf634af1b6751fa.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-07-17 12:47:33.000000000 Z
+- name: d3-shape
+  description: Graphical primitives for visualization
+  package_url: https://www.npmjs.com/d3-shape
+  version: 1.0.6
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17385/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2017-04-24 11:44:55.000000000 Z
+- name: file-loader
+  description: A file loader module for webpack
+  package_url: https://www.npmjs.com/file-loader
+  version: 1.1.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15834/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: David Watkins
+  last_updated_on: 2018-10-19 08:37:48.000000000 Z
+- name: font-awesome
+  description: The iconic font and CSS framework
+  package_url: https://www.npmjs.com/font-awesome
+  version: 4.7.0
+  license: OFL-1.1,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16160/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: salekam
+  last_updated_on: 2018-05-17 16:46:43.000000000 Z
+- name: html-loader
+  description: Html loader module for webpack
+  package_url: https://www.npmjs.com/html-loader
+  version: 0.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16055/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-07-19 14:55:06.000000000 Z
+- name: html-webpack-plugin
+  description: Simplifies creation of HTML files to serve your webpack bundles
+  package_url: https://www.npmjs.com/html-webpack-plugin
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15841/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: David Watkins
+  last_updated_on: 2020-01-02 21:57:56.000000000 Z
+- name: json-stable-stringify
+  description: Deterministic JSON.stringify
+  package_url: https://www.npmjs.com/json-stable-stringify
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16953/default_277303773c2bdb575ee8f4bfe869f0a33d6755b2.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: kamransaleem
+  last_updated_on: 2017-05-17 15:54:35.000000000 Z
+- name: node-libs-browser
+  description: The node core libs for in browser usage
+  package_url: https://www.npmjs.com/node-libs-browser
+  version: 0.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16576/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: kamransaleem
+  last_updated_on: 2019-01-11 11:58:00.000000000 Z
+- name: raw-loader
+  description: A loader for webpack that allows importing files as a String
+  package_url: https://www.npmjs.com/raw-loader
+  version: 0.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16030/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-07-19 14:55:06.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-06-05 10:43:08.000000000 Z
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 0.21.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-07-19 14:55:06.000000000 Z
+- name: thread-loader
+  description: Runs the following loaders in a worker pool
+  package_url: https://www.npmjs.com/thread-loader
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17547/default_809f38c280e61a39329e5ca5d8a16d8966425895.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-07-19 14:55:06.000000000 Z
+- name: url-loader
+  description: A loader for webpack which transforms files into base64 URIs
+  package_url: https://www.npmjs.com/url-loader
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15858/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-07-19 14:55:06.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: David Watkins
+  last_updated_on: 2020-01-02 21:57:56.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 3.1.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: David Watkins
+  last_updated_on: 2020-01-02 21:57:56.000000000 Z
+- name: webpack-merge
+  description: Variant of merge that's useful for webpack configuration
+  package_url: https://www.npmjs.com/webpack-merge
+  version: 4.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15925/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: David Watkins
+  last_updated_on: 2020-01-02 21:57:56.000000000 Z
+- name: webpack-visualizer-plugin
+  description: Visualize and analyze your Webpack bundle to see which modules are
+    taking up space and which might be duplicates
+  package_url: https://www.npmjs.com/webpack-visualizer-plugin
+  version: 0.1.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18277/default_98150e36575f7f7c88dc8bc97b4d490739946663.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-ng/package-lock.json
+  detection_source: waltz-ng/package.json
+  last_updated_by: David Watkins
+  last_updated_on: 2020-01-02 21:57:56.000000000 Z
+- name: ch.qos.logback:logback-classic
+  description: Logback-classic module
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-common/pom.xml
+  detection_source: waltz-common/pom.xml
+  last_updated_by: Dave Watkins
+  last_updated_on: 2016-01-18 22:06:27.000000000 Z
+- name: ch.qos.logback:logback-core
+  description: Logback-core module
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-common/pom.xml
+  detection_source: waltz-common/pom.xml
+  last_updated_by: Rohit Vats
+  last_updated_on: 2016-09-26 19:14:36.000000000 Z
+- name: com.auth0:java-jwt
+  description: Java implementation of JSON Web Token
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-web/pom.xml
+  detection_source: waltz-web/pom.xml
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-10-24 20:20:01.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-annotations
+  description: Core annotations used for value types
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-model/pom.xml
+  detection_source: waltz-model/pom.xml
+  last_updated_by: David Watkins
+  last_updated_on: 2019-12-22 18:27:39.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-core
+  description: Core Jackson processing abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-model/pom.xml
+  detection_source: waltz-model/pom.xml
+  last_updated_by: Dave Watkins
+  last_updated_on: 2016-05-29 17:23:16.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-model/pom.xml
+  detection_source: waltz-model/pom.xml
+  last_updated_by: Dave Watkins
+  last_updated_on: 2016-05-29 17:23:16.000000000 Z
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+  description: Support for reading and writing YAML-encoded data via Jackson abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-jobs/pom.xml
+  detection_source: waltz-jobs/pom.xml
+  last_updated_by: David Watkins
+  last_updated_on: 2019-12-22 18:27:39.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-jdk8
+  description: Add-on module for Jackson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-web/pom.xml
+  detection_source: waltz-web/pom.xml
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-10-24 20:20:01.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+  description: Add-on module to support JSR-310
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-web/pom.xml
+  detection_source: waltz-web/pom.xml
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-10-24 20:20:01.000000000 Z
+- name: com.sparkjava:spark-core
+  description: A Sinatra inspired java web framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-web/pom.xml
+  detection_source: waltz-web/pom.xml
+  last_updated_by: Dave Watkins
+  last_updated_on: 2018-10-24 20:20:01.000000000 Z
+- name: com.zaxxer:HikariCP
+  description: Ultimate JDBC Connection Pool
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-data/pom.xml
+  detection_source: waltz-data/pom.xml
+  last_updated_by: Dave Watkins
+  last_updated_on: 2016-05-29 17:23:16.000000000 Z
+- name: de.svenkubiak:jBCrypt
+  description: A Java implementation of OpenBSD's Blowfish password hashing code http://www.mindrot.org/projects/jBCrypt
+  license: ISC,LAL-1.3
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-service/pom.xml
+  detection_source: waltz-service/pom.xml
+  last_updated_by: Dave Watkins
+  last_updated_on: 2016-01-18 22:06:27.000000000 Z
+- name: io.codearte.jfairy:jfairy
+  description: JFairy - Java fake data generator
+  version: 0.5.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-jobs/pom.xml
+  detection_source: waltz-jobs/pom.xml
+  last_updated_by: Dave Watkins
+  last_updated_on: 2016-05-29 17:23:16.000000000 Z
+- name: javax.mail:mail
+  description: "${project.name}"
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-service/pom.xml
+  detection_source: waltz-service/pom.xml
+  last_updated_by: salekam
+  last_updated_on: 2017-08-31 14:43:33.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-common/pom.xml
+  detection_source: waltz-common/pom.xml
+  last_updated_by: Dave Watkins
+  last_updated_on: 2016-01-18 22:06:27.000000000 Z
+- name: net.sf.supercsv:super-csv
+  description: Super CSV is a fast
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-jobs/pom.xml
+  detection_source: waltz-jobs/pom.xml
+  last_updated_by: Dave Watkins
+  last_updated_on: 2016-01-18 22:06:27.000000000 Z
+- name: org.apache.poi:poi
+  description: Apache POI - Java API To Access Microsoft Format Files
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-web/pom.xml
+  detection_source: waltz-web/pom.xml
+  last_updated_by: David Watkins
+  last_updated_on: 2019-12-22 18:27:39.000000000 Z
+- name: org.apache.poi:poi-ooxml
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: 4.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-jobs/pom.xml
+  detection_source: waltz-jobs/pom.xml
+  last_updated_by: David Watkins
+  last_updated_on: 2019-12-22 18:27:39.000000000 Z
+- name: org.freemarker:freemarker
+  description: FreeMarker is a "template engine"; a generic tool to generate text
+    output based on templates
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-service/pom.xml
+  detection_source: waltz-service/pom.xml
+  last_updated_by: salekam
+  last_updated_on: 2017-08-31 14:43:33.000000000 Z
+- name: org.immutables:value
+  description: Annotations to generate immutable and other support classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-model/pom.xml
+  detection_source: waltz-model/pom.xml
+  last_updated_by: David Watkins
+  last_updated_on: 2019-12-22 18:27:39.000000000 Z
+- name: org.jgrapht:jgrapht-core
+  description: Master repository for the JGraphT project
+  version: 1.2.0
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-jobs/pom.xml
+  detection_source: waltz-jobs/pom.xml
+  last_updated_by: David Watkins
+  last_updated_on: 2018-12-12 09:09:37.000000000 Z
+- name: org.jooq:jool
+  description: JOOλ is part of the jOOQ series
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-common/pom.xml
+  detection_source: waltz-common/pom.xml
+  last_updated_by: Rohit Vats
+  last_updated_on: 2016-09-26 19:14:36.000000000 Z
+- name: org.jooq:jooq
+  description: JOOQ effectively combines complex SQL
+  version: 3.12.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-integration-test/pom.xml
+  detection_source: waltz-integration-test/pom.xml
+  last_updated_by: David Watkins
+  last_updated_on: 2020-04-22 07:41:20.000000000 Z
+- name: org.pcollections:pcollections
+  description: A Persistent Java Collections Library
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-common/pom.xml
+  detection_source: waltz-common/pom.xml
+  last_updated_by: David Watkins
+  last_updated_on: 2019-12-22 18:27:39.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-common/pom.xml
+  detection_source: waltz-common/pom.xml
+  last_updated_by: Rohit Vats
+  last_updated_on: 2016-09-26 19:14:36.000000000 Z
+- name: org.springframework:spring-beans
+  description: Spring Beans
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-web/pom.xml
+  detection_source: waltz-web/pom.xml
+  last_updated_by: David Watkins
+  last_updated_on: 2019-06-02 13:41:41.000000000 Z
+- name: org.springframework:spring-context
+  description: Spring Context
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-data/pom.xml
+  detection_source: waltz-data/pom.xml
+  last_updated_by: Dave Watkins
+  last_updated_on: 2016-01-18 22:06:27.000000000 Z
+- name: org.springframework:spring-context-support
+  description: Spring Context Support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-service/pom.xml
+  detection_source: waltz-service/pom.xml
+  last_updated_by: salekam
+  last_updated_on: 2017-08-31 14:43:33.000000000 Z
+- name: org.springframework:spring-core
+  description: Spring Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-common/pom.xml
+  detection_source: waltz-common/pom.xml
+  last_updated_by: Rohit Vats
+  last_updated_on: 2016-09-26 19:14:36.000000000 Z
+- name: org.testcontainers:postgresql
+  description: Testcontainers is a Java library that supports JUnit tests
+  version: 1.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-integration-test/pom.xml
+  detection_source: waltz-integration-test/pom.xml
+  last_updated_by: David Watkins
+  last_updated_on: 2020-04-22 07:41:20.000000000 Z
+- name: org.testcontainers:testcontainers
+  description: Isolated container management for Java code testing
+  version: 1.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waltz/blob/master/waltz-integration-test/pom.xml
+  detection_source: waltz-integration-test/pom.xml
+  last_updated_by: David Watkins
+  last_updated_on: 2020-04-22 07:41:20.000000000 Z
